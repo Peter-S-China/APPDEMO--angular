@@ -1,0 +1,25 @@
+
+<div class="pad" style="padding-top:50px;">
+
+    <span class="topcoat-icon-button">房间ID:<br><input type="text" class="topcoat-text-input is-disabled" value="" placeholder="1368888"></span>
+    
+    <span class="topcoat-icon-button">房间类型:<br>
+        <select  class="topcoat-button--large" >
+            <option>聚会</option>
+            <option id="greet" ng-selected="selected">会议</option>
+        </select>
+        
+        
+    </span>
+    <span class="topcoat-icon-button">
+    房间名称:<br><input type="text" class="topcoat-text-input" value="" placeholder="ROOM1"></span>
+   <br>
+    <a class="topcoat-button--cta" ng-click="slidePage('/view1')" >开始
+    </a>
+    
+</div>
+
+
+
+
+<ng-include src="'partials/settingsOverlay.html'"></ng-include>

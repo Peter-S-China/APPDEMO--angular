@@ -1,0 +1,23 @@
+<!--<ng:include src="'partials/header.html'"></ng:include>-->
+<div class="topcoat-navigation-bar" ng-controller="HomeCtrl">
+    <div class="topcoat-navigation-bar__item left quarter">
+  
+    </div>
+    <div class="topcoat-navigation-bar__item center half" style="padding-top:10px;">
+         <a class="topcoat-button--cta" ng-click="slidePage('/view9')" >最新排名</a>
+    </div>
+    <div class="topcoat-navigation-bar__item right quarter">
+        
+      
+    </div>
+</div>
+
+<div  class="topcoat-list__container list" ng-controller="NotificationCtrl">
+ 
+   <iframe src="partials/countdown.html" width="322" height="50" scrolling="no" frameborder="0"></iframe>
+   
+</div>
+
+
+<ng-include src="'partials/settingsOverlay.html'"></ng-include>
+
